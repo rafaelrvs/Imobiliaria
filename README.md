@@ -1,3 +1,3 @@
 # Imobiliaria
-<h1>catalogo de casas</h1>
+<h1>Catalogo de casas</h1>
 > status do projeto em desenvolvimento
