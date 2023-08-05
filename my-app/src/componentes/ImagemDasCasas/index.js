@@ -1,29 +1,40 @@
 import './ImagemDasCasas.css'
-import React, {useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
-let imagem = './ImagemDasCasasEpdf/tons.png'
+const imagemList = [
+  '../ImagemDasCasasEpdf/academia.png',
+  '../ImagemDasCasasEpdf/apartamentoFrente.png', 
+  '../ImagemDasCasasEpdf/apInside.png',
+  '../ImagemDasCasasEpdf/imagemAp.png',
+  '../ImagemDasCasasEpdf/newfoto.png',
+  '../ImagemDasCasasEpdf/interna.png', 
+  '../ImagemDasCasasEpdf/Planta.png',
+  '../ImagemDasCasasEpdf/plantaImovel.png',
+  '../ImagemDasCasasEpdf/tons.png',
+];
+
 
 const ImagemDasCasas = () =>{
-  
-  
+  const [randomImagemInserida, setRandomImagemInserida] = useState(imagemList[0]);
+
   useEffect(() => {
-    const handlePageLoad = () => {
-      // Ação a ser realizada quando a página é carregada (refresh)
-     setTimeout(() => {
-      imagem = './ImagemDasCasasEpdf/apartamentoFrente.png'
-     },200);
-    };
-  
-    window.addEventListener('load', handlePageLoad);
-  
+    const intervalId = setInterval(() => {
+      const randomIndex = getRandomImage();
+      setRandomImagemInserida(imagemList[randomIndex]);
+    }, 2000);
+
     return () => {
-      window.removeEventListener('load', handlePageLoad);
+      clearInterval(intervalId); // Limpa o intervalo quando o componente é desmontado
     };
   }, []);
-  
+
+  function getRandomImage() {
+    return Math.floor(Math.random() * imagemList.length);
+  }
+
   return(
     <div className="container__img">
-      <img id='img' src={imagem }alt="" />
+      <img id='img' src={randomImagemInserida }alt="esposição" />
     </div>
   )
 }
