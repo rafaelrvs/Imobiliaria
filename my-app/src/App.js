@@ -3,7 +3,7 @@ import MenuTopo from './componentes/MenuTopo';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <header><MenuTopo/></header>
       <main><ConteudoCentral/></main>
     </div>

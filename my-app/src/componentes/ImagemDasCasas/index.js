@@ -4,13 +4,12 @@ import React, { useState, useEffect } from 'react';
 const imagemList = [
   '../ImagemDasCasasEpdf/academia.png',
   '../ImagemDasCasasEpdf/apartamentoFrente.png', 
-  '../ImagemDasCasasEpdf/apInside.png',
-  '../ImagemDasCasasEpdf/imagemAp.png',
-  '../ImagemDasCasasEpdf/newfoto.png',
+  '../ImagemDasCasasEpdf/apInside.png', 
   '../ImagemDasCasasEpdf/interna.png', 
-  '../ImagemDasCasasEpdf/Planta.png',
-  '../ImagemDasCasasEpdf/plantaImovel.png',
-  '../ImagemDasCasasEpdf/tons.png',
+  '../ImagemDasCasasEpdf/newFoto.png', 
+  '../ImagemDasCasasEpdf/PlantaImovel.png', 
+  '../ImagemDasCasasEpdf/tons.png', 
+
 ];
 
 
@@ -20,6 +19,7 @@ const ImagemDasCasas = () =>{
   useEffect(() => {
     const intervalId = setInterval(() => {
       const randomIndex = getRandomImage();
+    
       setRandomImagemInserida(imagemList[randomIndex]);
     }, 2000);
 
@@ -29,7 +29,9 @@ const ImagemDasCasas = () =>{
   }, []);
 
   function getRandomImage() {
+   
     return Math.floor(Math.random() * imagemList.length);
+
   }
 
   return(
