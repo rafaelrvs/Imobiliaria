@@ -1,9 +1,9 @@
-import './App.css';
+import MenuTopo from './componentes/MenuTopo';
 
 function App() {
   return (
     <div className="App">
-    
+    <MenuTopo/>
     </div>
   );
 }

@@ -1,0 +1,21 @@
+.menu__topo__content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: rgba(155, 57, 57, 0.573);
+  color: #fff;
+}
+#btn__menu{
+  font-size: 15pt;
+  font-weight: 500;
+}
+#btn__whatsaap{
+  font-size: 15pt;
+  font-weight: 500;
+}
+#input__search{
+  padding: 5px;
+  width: 250px;
+  border-radius: 25px;
+}
