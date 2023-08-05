@@ -1,0 +1,11 @@
+.box__main{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill,minmax(600px,1fr));
+  gap: 30px;
+}
+#Container1{
+  
+  box-shadow: 0,0,10px black;
+}
