@@ -9,6 +9,7 @@ const imagemList = [
   '../ImagemDasCasasEpdf/newFoto.png', 
   '../ImagemDasCasasEpdf/PlantaImovel.png', 
   '../ImagemDasCasasEpdf/tons.png', 
+  '../ImagemDasCasasEpdf/Planta.png', 
 
 ];
 
