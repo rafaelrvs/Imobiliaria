@@ -6,10 +6,10 @@ const imagemList = [
   './ImagemDasCasasEpdf/apartamentoFrente.png', 
   './ImagemDasCasasEpdf/apInside.png', 
   './ImagemDasCasasEpdf/interna.png', 
-  './ImagemDasCasasEpdf/newFoto.png', 
+  './ImagemDasCasasEpdf/newfoto.png', 
   './ImagemDasCasasEpdf/PlantaImovel.png', 
-  './ImagemDasCasasEpdf/Planta.png', 
-  './ImagemDasCasasEpdf/tons.png', 
+  '../ImagemDasCasasEpdf/Planta.png', 
+  './ImagemDasCasasEpdf/tons.png'
 ];
 
 
@@ -21,7 +21,7 @@ const ImagemDasCasas = () =>{
       const randomIndex = getRandomImage();
     
       setRandomImagemInserida(imagemList[randomIndex]);
-    }, 2000);
+    }, 4000);
 
     return () => {
       clearInterval(intervalId); // Limpa o intervalo quando o componente é desmontado
