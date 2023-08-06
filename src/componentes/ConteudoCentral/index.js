@@ -4,13 +4,13 @@ import './ConteudoCentral.css';
 
 const ConteudoCentral =()=>{
   
-  const imagem1 ='../ImagemDasCasasEpdf/img/academia.png';
-  const imagem2 ='../ImagemDasCasasEpdf/img/apartamentoFrente.png';
-  const imagem3 ='../ImagemDasCasasEpdf/img/apInside.png';
-  const imagem4 ='../ImagemDasCasasEpdf/img/interna.png';
-  const imagem5 ='../ImagemDasCasasEpdf/img/newFoto.png';
-  const imagem6 ='../ImagemDasCasasEpdf/img/PlantaImovel.png';
-  const imagem7 ='../ImagemDasCasasEpdf/img/tons.png';
+  const imagem1 ='../imagemDasCasasEpdf/img/academia.png';
+  const imagem2 ='../imagemDasCasasEpdf/img/apartamentoFrente.png';
+  const imagem3 ='../imagemDasCasasEpdf/img/apInside.png';
+  const imagem4 ='../imagemDasCasasEpdf/img/interna.png';
+  const imagem5 ='../imagemDasCasasEpdf/img/newFoto.png';
+  const imagem6 ='../imagemDasCasasEpdf/img/PlantaImovel.png';
+  const imagem7 ='../imagemDasCasasEpdf/img/tons.png';
 
   return(
     <div className='container-all-img'>
