@@ -2,14 +2,14 @@ import './ImagemDasCasas.css'
 import React, { useState, useEffect } from 'react';
 
 const imagemList = [
-  '../imagemDasCasasEpdf/academia.png',
-  '../ImagemDasCasasEpdf/apartamentoFrente.png', 
-  '../ImagemDasCasasEpdf/apInside.png', 
-  '../ImagemDasCasasEpdf/interna.png', 
-  '../ImagemDasCasasEpdf/newfoto.png', 
-  '../ImagemDasCasasEpdf/PlantaImovel.png', 
-  '../ImagemDasCasasEpdf/Planta.png', 
-  '../ImagemDasCasasEpdf/tons.png'
+  'public/imagemDasCasasEpdf/academia.png',
+  'public/ImagemDasCasasEpdf/apInside.png', 
+  'public/ImagemDasCasasEpdf/apartamentoFrente.png', 
+  'public/ImagemDasCasasEpdf/interna.png', 
+  'public/ImagemDasCasasEpdf/newfoto.png', 
+  'public/ImagemDasCasasEpdf/PlantaImovel.png', 
+  'public/ImagemDasCasasEpdf/Planta.png', 
+  'public/ImagemDasCasasEpdf/tons.png'
 ];
 
 
