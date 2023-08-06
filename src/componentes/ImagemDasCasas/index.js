@@ -3,13 +3,13 @@ import React, { useState, useEffect } from 'react';
 
 const imagemList = [
   './imagemDasCasasEpdf/img/academia.png',
-  './ImagemDasCasasEpdf/img/apInside.png', 
-  './ImagemDasCasasEpdf/img/apartamentoFrente.png', 
-  './ImagemDasCasasEpdf/img/interna.png', 
-  './ImagemDasCasasEpdf/img/newfoto.png', 
-  './ImagemDasCasasEpdf/img/PlantaImovel.png', 
-  './ImagemDasCasasEpdf/img/Planta.png', 
-  './ImagemDasCasasEpdf/img/tons.png',
+  './imagemDasCasasEpdf/img/apInside.png', 
+  './imagemDasCasasEpdf/img/apartamentoFrente.png', 
+  './imagemDasCasasEpdf/img/interna.png', 
+  './imagemDasCasasEpdf/img/newfoto.png', 
+  './imagemDasCasasEpdf/img/PlantaImovel.png', 
+  './imagemDasCasasEpdf/img/Planta.png', 
+  './imagemDasCasasEpdf/img/tons.png',
 ];
 
 
