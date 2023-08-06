@@ -6,6 +6,7 @@
   grid-template-columns: repeat(auto-fill,minmax(800px,3fr));
   background-color: rgba(155, 57, 57, 0.573);
   color: #fff;
+  cursor: pointer;
 }
 
 
@@ -39,4 +40,5 @@
   padding: 5px;
   width: 250px;
   border-radius: 25px;
+  cursor: help;
 }

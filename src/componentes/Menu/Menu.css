@@ -11,4 +11,5 @@
   align-items: center;
   z-index: 2;
   border-radius: 25px;
+  cursor: pointer;
 }
